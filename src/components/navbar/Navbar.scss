@@ -1,0 +1,86 @@
+.navbar {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100px;
+  border-bottom: 1.3px solid #ccc;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    .logo {
+      height: 30px;
+      width: 30px;
+    }
+    .comp-name {
+      margin-top: 6px;
+      width: 68px;
+      height: 26px;
+    }
+  }
+  .nav-wrapper {
+    //margin-top: 20px;
+    width: 70%;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      //   gap: 5px;
+    }
+  }
+  li {
+    color: #1d1e1f;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: 12%;
+    &:hover::after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: #002550;
+      border-radius: 10px;
+    }
+    a {
+      text-decoration: none;
+      &:visited {
+        color: #1d1e1f; /* Or any other color value you prefer */
+      }
+      &:hover {
+        color: #002550;
+      }
+    }
+  }
+  button {
+    margin-bottom: 13px;
+    margin-right: 60px;
+    width: 167px;
+    height: 48px;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #002550;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #023570;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
