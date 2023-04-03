@@ -36,6 +36,7 @@
     }
   }
   li {
+    cursor: pointer;
     color: #1d1e1f;
     list-style: none;
     position: relative;
@@ -45,16 +46,16 @@
       content: "";
       position: absolute;
       bottom: -15px;
-      left: 0;
+      right: 0;
       width: 100%;
-      height: 3px;
+      height: 4px;
       background-color: #002550;
       border-radius: 10px;
     }
     a {
       text-decoration: none;
       &:visited {
-        color: #1d1e1f; /* Or any other color value you prefer */
+        color: #1a1a1a; /* Or any other color value you prefer */
       }
       &:hover {
         color: #002550;
