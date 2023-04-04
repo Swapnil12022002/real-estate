@@ -9,7 +9,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Offerings = () => {
   return (
     <div className="offerings">
-      <h2 className="header">Our Offerings</h2>
+      <h2>Our Offerings</h2>
+      <hr />
       <p className="lil-desc">
         This whole purchase journey can be divided into three stages. For more
         details, <a href="#click">Click Here</a>
