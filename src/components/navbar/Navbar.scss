@@ -54,8 +54,9 @@
     }
     a {
       text-decoration: none;
+      color: black;
       &:visited {
-        color: #1a1a1a; /* Or any other color value you prefer */
+        color: black;
       }
       &:hover {
         color: #002550;
