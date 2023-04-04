@@ -9,7 +9,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Blog = () => {
   return (
     <div className="blog-bg">
-      <div className="blog">
+      <div id="blogs" className="blog">
         <div className="h2-wrapper">
           <h2>Blogs</h2>
           <hr />

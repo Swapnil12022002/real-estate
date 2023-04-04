@@ -4,7 +4,7 @@ import Happy from "../../assets/happy.png";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-container">
         <div className="container-wrapper">
           <div className="contact-info">

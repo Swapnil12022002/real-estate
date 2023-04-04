@@ -19,7 +19,7 @@ const Team = () => {
     setView3(!view3);
   };
   return (
-    <div className="team">
+    <div id="team" className="team">
       <h2>Our Team Members</h2>
       <hr />
       <div className="team-container">

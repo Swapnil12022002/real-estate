@@ -5,6 +5,7 @@ import Offerings from "./components/offerings/Offerings";
 import Team from "./components/team/Team";
 import Blog from "./components/blogs/Blog";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Team />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }

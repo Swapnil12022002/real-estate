@@ -29,7 +29,11 @@ const Header = () => {
             purchase journey, we are here to make it fast and transparent.
           </p>
           <div className="header-button">
-            <button>Contact Now</button>
+            <button>
+              <a href="#contact" className="another">
+                Contact us
+              </a>
+            </button>
             <div className="direction">
               <img src={Line} alt="line" className="line" />
               <img src={Arrow} alt="arrow" className="arrow" />

@@ -8,7 +8,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Offerings = () => {
   return (
-    <div className="offerings">
+    <div id="offerings" className="offerings">
       <h2>Our Offerings</h2>
       <hr />
       <p className="lil-desc">
@@ -49,7 +49,11 @@ const Offerings = () => {
           </p>
           <div className="button-wrapper">
             <div className="header-button">
-              <button>Contact us</button>
+              <button>
+                <a href="#contact" className="another">
+                  Contact us
+                </a>
+              </button>
               <AiOutlineArrowRight size={20} className="arrow" />
             </div>
             <p>INR 3000/Project</p>
@@ -65,7 +69,11 @@ const Offerings = () => {
           </p>
           <div className="button-wrapper">
             <div className="header-button">
-              <button>Contact us</button>
+              <button>
+                <a href="#contact" className="another">
+                  Contact us
+                </a>
+              </button>
               <AiOutlineArrowRight size={20} className="arrow" />
             </div>
           </div>
@@ -80,7 +88,11 @@ const Offerings = () => {
           </p>
           <div className="button-wrapper">
             <div className="header-button">
-              <button>Contact us</button>
+              <button>
+                <a href="#contact" className="another">
+                  Contact us
+                </a>
+              </button>
               <AiOutlineArrowRight size={20} className="arrow" />
             </div>
           </div>

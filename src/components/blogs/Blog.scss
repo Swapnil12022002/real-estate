@@ -97,6 +97,9 @@
             border: none;
             text-decoration: none;
             background-color: inherit;
+            &:hover {
+              color: #1263bf;
+            }
           }
         }
       }
