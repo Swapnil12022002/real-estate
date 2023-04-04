@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Offerings from "./components/offerings/Offerings";
 import Team from "./components/team/Team";
 import Blog from "./components/blogs/Blog";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Offerings />
       <Team />
       <Blog />
+      <Contact />
     </div>
   );
 }

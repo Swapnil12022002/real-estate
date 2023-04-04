@@ -78,8 +78,10 @@
         }
         .blog-info {
           font-size: 15px;
+          color: rgb(100, 98, 98);
         }
         .blog-button {
+          cursor: pointer;
           border-radius: 5px;
           //background-color: blue;
           width: 150px;
@@ -89,6 +91,7 @@
           align-items: center;
           border: 2px solid #002550;
           button {
+            cursor: pointer;
             color: #01244a;
             font-size: 18px;
             border: none;

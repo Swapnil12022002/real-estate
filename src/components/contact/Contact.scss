@@ -1,0 +1,110 @@
+.contact {
+  margin-left: 130px;
+  margin-right: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .contact-container {
+    //background-color: red;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      //background-color: red;
+      width: 95%;
+      height: 87%;
+      .contact-info {
+        // background-color: red;
+        height: 100%;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        .contact-header {
+          font-size: 24px;
+          margin: 0;
+        }
+        .contact-header2 {
+          font-size: 16px;
+          font-weight: 600;
+          margin: 0;
+        }
+        .contact-body {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          .name {
+            width: 48%;
+            height: 100px;
+            fieldset {
+              border-radius: 5px;
+              input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                text-decoration: none;
+                background-color: inherit;
+                &:focus {
+                  outline: none;
+                }
+              }
+            }
+            p {
+              margin: 0;
+              font-size: 12px;
+            }
+          }
+          .stages {
+            width: 48%;
+            height: 100px;
+            fieldset {
+              border-radius: 5px;
+              select {
+                width: 100%;
+                border: none;
+                &:focus {
+                  outline: none;
+                }
+              }
+            }
+          }
+        }
+        .contact-button {
+          cursor: pointer;
+          width: 48%;
+          height: 50px;
+          border-radius: 5px;
+          background-color: #01244a;
+          color: white;
+          font-size: 16px;
+          font-weight: 600;
+          button {
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: inherit;
+            &:hover {
+              background-color: #233448;
+            }
+          }
+        }
+      }
+      img {
+        height: 100%;
+        width: 40%;
+      }
+    }
+  }
+}
