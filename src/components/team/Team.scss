@@ -19,6 +19,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &.over-exp1 {
+      align-items: flex-start;
+    }
 
     .team-item {
       width: 31%;

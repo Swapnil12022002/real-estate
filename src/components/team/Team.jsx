@@ -22,7 +22,11 @@ const Team = () => {
     <div id="team" className="team">
       <h2>Our Team Members</h2>
       <hr />
-      <div className="team-container">
+      <div
+        className={`team-container ${
+          view1 || view2 || view3 ? "over-exp1" : ""
+        }`}
+      >
         <div className={`team-item ${view1 ? "over-exp" : ""}`}>
           <div className="item-wrapper">
             <img src={Person1} alt="person" />
